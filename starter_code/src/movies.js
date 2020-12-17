@@ -106,8 +106,8 @@ function turnHoursToMinutes(array){
       let newTime = Number(hour) * 60 + Number(min);
     
       return {
-        title: eachMovie.title,
-        year: eachMovie.year,
+        title: minuteMovies.title,
+        year: minuteMovies.year,
         duration: newTime,
       }
     
